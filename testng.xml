@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    
+  <test thread-count="5" name="NEXGEN QA AUTOMATION TEST RESULTS">
+    <classes>
+      <!-- <class name="com.Nexgen.testscripts.TC1_CreateNewUser"/> -->
+       <class name="com.Nexgen.testscripts.TC2_TagUserToEmployee"/>
+      <!--  <class name="com.Nexgen.testscripts.TC3_CreateNewCustomer"/> -->
+      <!--  <class name="com.Nexgen.testscripts.TC4_CreateServiceRequestandWorkOrder"/>-->
+	    <class name="com.test.ATUReporting.ATUReporting"/> 
+      
+    </classes>
+    
+   
+  </test> <!-- Test -->
+  
+  
+  <listeners>
+        <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+    </listeners>
+  
+    
+</suite> <!-- Suite -->
