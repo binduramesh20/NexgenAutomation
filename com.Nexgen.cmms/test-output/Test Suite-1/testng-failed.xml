@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite-1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC2_TagUserToEmployee(failed)">
+    <classes>
+      <class name="com.Nexgen.testscripts.TC2_TagUserToEmployee">
+        <methods>
+          <include name="employeeCreation"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.Nexgen.testscripts.TC2_TagUserToEmployee -->
+    </classes>
+  </test> <!-- TC2_TagUserToEmployee(failed) -->
+</suite> <!-- Failed suite [Test Suite-1] -->
